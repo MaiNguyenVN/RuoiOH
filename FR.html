@@ -60,10 +60,38 @@
 </head>
 <body class="bg-sand-50 text-earth-900 antialiased">
 
-  <!-- Smart Sticky Header -->
+<!-- Smart Sticky Header -->
   <header id="main-header" class="fixed top-0 left-0 right-0 z-50 bg-earth-950/95 backdrop-blur border-b border-amber-gold/0 transition-all duration-300 transform translate-y-0">
     <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
-      <a href="#accueil" class="font-display text-2xl font-bold text-amber-gold">Rượu OH</a>
+      
+      <!-- BRAND LOGO: Chum Rượu + Phong cảnh Ninh Bình (Tối giản) -->
+      <!-- Đã thêm class 'flex-shrink-0' để logo không bị biến dạng và luôn nằm bên trái -->
+      <a href="#trang-chu" class="flex items-center gap-3 group focus:outline-none flex-shrink-0">
+        
+        <!-- Khối chứa Logo (Chỉ còn Chum) -->
+        <div class="relative flex items-center justify-center w-auto h-12">
+          <!-- SVG Chum Rượu in họa tiết Ninh Bình -->
+          <svg class="w-12 h-12 text-amber-gold group-hover:-translate-y-1 transition-transform duration-300 ease-out drop-shadow-[0_4px_6px_rgba(217,164,65,0.3)]" viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 6 C12 4, 28 4, 28 6 C28 8, 12 8, 12 6 Z" />
+            <path d="M15 8 L15 11 C15 11, 25 11, 25 8 Z" />
+            <path d="M15 11 C 6 15, 4 28, 10 34 C 14 38, 26 38, 30 34 C 36 28, 34 15, 25 11 Z" />
+            <path d="M20 32 C 14 32, 11 26, 12 18 C 13 26, 17 30, 20 32 Z" fill="#faf4e8" opacity="0.15" />
+            <g fill="#2a1a10" stroke="#2a1a10" opacity="0.85">
+              <circle cx="24" cy="15" r="2.5" stroke="none" />
+              <path d="M 10 26 C 11 18, 13 18, 14 23 C 16 12, 19 12, 21 21 C 23.5 15, 26 15, 27 22 C 28 19, 29 19, 30 26 Z" stroke-width="0.5" stroke-linejoin="round"/>
+              <path d="M 9 27.5 Q 14.5 29.5 20 27.5 T 31 27.5" fill="none" stroke-width="1.2" stroke-linecap="round" />
+              <path d="M 13 30.5 Q 16.5 32 20 30.5 T 27 30.5" fill="none" stroke-width="1.2" stroke-linecap="round" />
+              <path d="M 14 27 L 17 27 L 16 28 L 14.5 28 Z" stroke="none" />
+              <path d="M 15.5 25 L 15.5 27" stroke-width="0.8" stroke-linecap="round" />
+            </g>
+          </svg>
+        </div>
+
+        <!-- Cụm Tên Thương Hiệu -->
+        <div class="flex flex-col justify-center">
+          <span class="font-display text-2xl font-extrabold text-amber-gold leading-none tracking-widest uppercase">Rượu OH</span>
+        </div>
+      </a>
 
       <!-- Menu Desktop & Language Switcher -->
       <div class="hidden md:flex items-center gap-8">
@@ -86,10 +114,10 @@
           <!-- Menu con thả xuống -->
           <div class="absolute right-0 top-full mt-0 w-32 origin-top-right rounded-md bg-earth-900 shadow-lg ring-1 ring-black ring-opacity-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
             <div class="py-1">
-<a href="https://mainguyenvn.github.io/RuoiOH/index.html" class="text-sm font-medium border border-amber-gold rounded px-3 py-1.5 bg-amber-gold/10 text-amber-gold">🇻🇳 VN</a>
-             <a href="https://mainguyenvn.github.io/RuoiOH/EN.html" class="text-sm font-medium border border-earth-800 rounded px-3 py-1.5 text-sand-100 hover:border-amber-gold hover:text-amber-gold transition-colors">🇬🇧 EN</a>
-             <a href="https://mainguyenvn.github.io/RuoiOH/FR.html" class="text-sm font-medium border border-earth-800 rounded px-3 py-1.5 text-sand-100 hover:border-amber-gold hover:text-amber-gold transition-colors">🇫🇷 FR</a>
-             <a href="https://mainguyenvn.github.io/RuoiOH/CHINA.html" class="text-sm font-medium border border-earth-800 rounded px-3 py-1.5 text-sand-100 hover:border-amber-gold hover:text-amber-gold transition-colors">🇨🇳 CN</a>
+              <a href="https://mainguyenvn.github.io/RuoiOH/index.html" class="block px-4 py-2 text-sm text-amber-gold hover:bg-earth-800">🇻🇳 Tiếng Việt</a>
+              <a href="https://mainguyenvn.github.io/RuoiOH/EN.html" class="block px-4 py-2 text-sm text-sand-100 hover:bg-earth-800 hover:text-amber-gold">🇬🇧 English</a>
+              <a href="https://mainguyenvn.github.io/RuoiOH/FR.html" class="block px-4 py-2 text-sm text-sand-100 hover:bg-earth-800 hover:text-amber-gold">🇫🇷 Français</a>
+              <a href="https://mainguyenvn.github.io/RuoiOH/CHINA.html" class="block px-4 py-2 text-sm text-sand-100 hover:bg-earth-800 hover:text-amber-gold">🇨🇳 中文</a>
             </div>
           </div>
         </div>
@@ -114,10 +142,9 @@
         <li class="border-t border-earth-800 mt-2 pt-4 pb-4">
           <p class="text-xs text-sand-100/50 mb-3 uppercase tracking-wider">Langue / Language</p>
           <div class="flex flex-wrap gap-2">
-             <a href="https://mainguyenvn.github.io/RuoiOH/index.html" class="text-sm font-medium border border-earth-800 rounded px-3 py-1.5 text-sand-100 hover:border-amber-gold hover:text-amber-gold transition-colors">🇻🇳 VN</a>
+             <a href="https://mainguyenvn.github.io/RuoiOH/index.html" class="text-sm font-medium border border-amber-gold rounded px-3 py-1.5 bg-amber-gold/10 text-amber-gold">🇻🇳 VN</a>
              <a href="https://mainguyenvn.github.io/RuoiOH/EN.html" class="text-sm font-medium border border-earth-800 rounded px-3 py-1.5 text-sand-100 hover:border-amber-gold hover:text-amber-gold transition-colors">🇬🇧 EN</a>
-             <!-- Đang ở tiếng Pháp nên sáng màu -->
-             <a href="https://mainguyenvn.github.io/RuoiOH/FR.html" class="text-sm font-medium border border-amber-gold rounded px-3 py-1.5 bg-amber-gold/10 text-amber-gold">🇫🇷 FR</a>
+             <a href="https://mainguyenvn.github.io/RuoiOH/FR.html" class="text-sm font-medium border border-earth-800 rounded px-3 py-1.5 text-sand-100 hover:border-amber-gold hover:text-amber-gold transition-colors">🇫🇷 FR</a>
              <a href="https://mainguyenvn.github.io/RuoiOH/CHINA.html" class="text-sm font-medium border border-earth-800 rounded px-3 py-1.5 text-sand-100 hover:border-amber-gold hover:text-amber-gold transition-colors">🇨🇳 CN</a>
           </div>
         </li>
