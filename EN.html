@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!-- Google Site Verification (Replace content with your actual code) -->
+  <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE_HERE" />
+  
+  <title>OH Wine – The taste of hometown, cooked with mother's love</title>
+  <meta name="description" content="OH Wine – Traditional Vietnamese wine, preserving the essence of our hometown and the love in every drop." />
+
+  <!-- ========================================== -->
+  <!-- OPEN GRAPH FOR FACEBOOK, ZALO, iMESSAGE... -->
+  <!-- ========================================== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="OH Wine" />
+  <meta property="og:url" content="https://mainguyenvn.github.io/RuoiOH/en.html" />
+  <meta property="og:title" content="OH Wine – The taste of hometown, cooked with mother's love" />
+  <meta property="og:description" content="OH Wine – Traditional Vietnamese wine, preserving the essence of our hometown and the love in every drop." />
+  <meta property="og:image" content="https://mainguyenvn.github.io/RuoiOH/1000029231.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- TWITTER CARDS -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://mainguyenvn.github.io/RuoiOH/en.html" />
+  <meta name="twitter:title" content="OH Wine – The taste of hometown, cooked with mother's love" />
+  <meta name="twitter:description" content="OH Wine – Traditional Vietnamese wine, preserving the essence of our hometown and the love in every drop." />
+  <meta name="twitter:image" content="https://mainguyenvn.github.io/RuoiOH/1000029231.jpg" />
+  <!-- ========================================== -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            earth: { 950: '#2a1a10', 900: '#3b2416', 800: '#5a3722', 700: '#7a4b2d' },
+            amber: { gold: '#d9a441', deep: '#b9822a' },
+            sand: { 50: '#faf4e8', 100: '#f3e8d2', 200: '#e8d6b5' }
+          },
+          fontFamily: {
+            display: ['"Playfair Display"', 'Georgia', 'serif'],
+            body: ['"Be Vietnam Pro"', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Be Vietnam Pro', system-ui, sans-serif; }
+    html { scroll-padding-top: 5rem; }
+    img { background: #e8d6b5; }
+    @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+  </style>
+</head>
+<body class="bg-sand-50 text-earth-900 antialiased">
+
+  <!-- Smart Sticky Header -->
+  <header id="main-header" class="fixed top-0 left-0 right-0 z-50 bg-earth-950/95 backdrop-blur border-b border-amber-gold/0 transition-all duration-300 transform translate-y-0">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
+      <a href="#home" class="font-display text-2xl font-bold text-amber-gold">OH Wine</a>
+
+      <!-- Menu Desktop & Language Switcher -->
+      <div class="hidden md:flex items-center gap-8">
+        <nav aria-label="Main Menu">
+          <ul id="desktop-menu" class="flex gap-8 text-sm font-medium text-sand-100">
+            <li><a class="nav-link hover:text-amber-gold transition-colors" href="#home">Home</a></li>
+            <li><a class="nav-link hover:text-amber-gold transition-colors" href="#story">Our Story</a></li>
+            <li><a class="nav-link hover:text-amber-gold transition-colors" href="#products">Products</a></li>
+            <li><a class="nav-link hover:text-amber-gold transition-colors" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Dropdown Language (Desktop) -->
+        <div class="relative group">
+          <button class="flex items-center gap-1 text-sm font-medium text-sand-100 hover:text-amber-gold transition-colors focus:outline-none py-2" aria-label="Select Language">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path></svg>
+            EN
+            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <!-- Dropdown Menu -->
+          <div class="absolute right-0 top-full mt-0 w-32 origin-top-right rounded-md bg-earth-900 shadow-lg ring-1 ring-black ring-opacity-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+            <div class="py-1">
+              <a href="index.html" class="block px-4 py-2 text-sm text-sand-100 hover:bg-earth-800 hover:text-amber-gold">🇻🇳 Tiếng Việt</a>
+              <a href="en.html" class="block px-4 py-2 text-sm text-amber-gold hover:bg-earth-800">🇬🇧 English</a>
+              <a href="fr.html" class="block px-4 py-2 text-sm text-sand-100 hover:bg-earth-800 hover:text-amber-gold">🇫🇷 Français</a>
+              <a href="cn.html" class="block px-4 py-2 text-sm text-sand-100 hover:bg-earth-800 hover:text-amber-gold">🇨🇳 中文</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button id="menu-btn" class="md:hidden rounded p-2 text-sand-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-gold"
+              aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg id="icon-open" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg id="icon-close" class="hidden h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <nav id="mobile-menu" class="hidden md:hidden border-t border-amber-gold/20 bg-earth-950 shadow-xl" aria-label="Mobile menu">
+      <ul class="flex flex-col px-5 py-2 text-sand-100">
+        <li><a class="nav-link block py-3 hover:text-amber-gold" href="#home">Home</a></li>
+        <li><a class="nav-link block py-3 hover:text-amber-gold" href="#story">Our Story</a></li>
+        <li><a class="nav-link block py-3 hover:text-amber-gold" href="#products">Products</a></li>
+        <li><a class="nav-link block py-3 hover:text-amber-gold" href="#contact">Contact</a></li>
+        
+        <!-- Language Switcher Mobile -->
+        <li class="border-t border-earth-800 mt-2 pt-4 pb-4">
+          <p class="text-xs text-sand-100/50 mb-3 uppercase tracking-wider">Language</p>
+          <div class="flex flex-wrap gap-2">
+             <a href="index.html" class="text-sm font-medium border border-earth-800 rounded px-3 py-1.5 text-sand-100 hover:border-amber-gold hover:text-amber-gold transition-colors">🇻🇳 VN</a>
+             <a href="en.html" class="text-sm font-medium border border-amber-gold rounded px-3 py-1.5 bg-amber-gold/10 text-amber-gold">🇬🇧 EN</a>
+             <a href="fr.html" class="text-sm font-medium border border-earth-800 rounded px-3 py-1.5 text-sand-100 hover:border-amber-gold hover:text-amber-gold transition-colors">🇫🇷 FR</a>
+             <a href="cn.html" class="text-sm font-medium border border-earth-800 rounded px-3 py-1.5 text-sand-100 hover:border-amber-gold hover:text-amber-gold transition-colors">🇨🇳 CN</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="relative flex min-h-[80vh] items-center justify-center bg-earth-950 bg-cover bg-center"
+             style="background-image:url('1000029231.jpg')">
+      <div class="absolute inset-0 bg-earth-950/70"></div>
+      <div class="relative mx-auto max-w-3xl px-5 py-24 text-center">
+        <h1 class="font-display text-4xl font-extrabold leading-tight text-amber-gold sm:text-5xl md:text-6xl">
+          THE TASTE OF HOMETOWN – COOKED WITH MOTHER'S LOVE
+        </h1>
+        <p class="mx-auto mt-6 max-w-xl text-lg text-sand-100/90">
+          Not just a wine, but the soul of our homeland, memories, and the enduring love of our people...
+        </p>
+        <a href="#products"
+           class="mt-10 inline-block rounded-full bg-amber-gold px-8 py-3 font-semibold text-earth-950 transition-colors hover:bg-sand-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-sand-50">
+          Discover Now
+        </a>
+      </div>
+    </section>
+
+    <!-- Our Story -->
+    <section id="story" class="bg-sand-50 py-20">
+      <div class="mx-auto grid max-w-6xl items-center gap-12 px-5 md:grid-cols-2">
+        <div>
+          <h2 class="font-display text-3xl font-bold text-earth-800 md:text-4xl">OUR STORY</h2>
+          <div class="mt-5 h-1 w-16 rounded bg-amber-gold"></div>
+          <div class="mt-6 space-y-4 text-base leading-relaxed text-earth-900/90 md:max-w-[60ch]">
+            <p>OH Wine carries the historical flow and traditional essence from Ninh Binh, a land famous for magnificent limestone mountains and ancient churches.</p>
+            <p>We preserve the flavor of time through carefully selected ingredients, traditional underground aging, and storage in premium ceramic jars and oak barrels. This process enhances its aroma, rich color, and harmonious taste.</p>
+            <p>History isn't just written in books; it's in our blood and resilience. Let's honor the past and cherish the present with love for our homeland built over thousands of years.</p>
+          </div>
+        </div>
+        <div class="overflow-hidden rounded-3xl shadow-lg ring-1 ring-earth-800/10">
+          <img src="1000029227.jpg"
+               alt="OH Wine symbol with Ninh Binh stone church" class="h-80 w-full object-cover object-top md:h-[32rem]" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="bg-sand-100 py-20">
+      <div class="mx-auto max-w-6xl px-5">
+        <div class="mx-auto max-w-2xl text-center">
+          <h2 class="font-display text-3xl font-bold text-earth-800 md:text-4xl">Featured Products</h2>
+          <p class="mt-4 text-earth-900/80">Traditional quintessence loved by our customers.</p>
+        </div>
+
+        <div class="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          
+          <!-- Product 1 -->
+          <article class="group flex flex-col overflow-hidden rounded-2xl bg-sand-50 shadow-md ring-1 ring-earth-800/10 transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+            <div class="relative overflow-hidden">
+              <img src="1000029232.jpg"
+                   alt="Underground aged sticky rice wine" class="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+              <span class="absolute right-4 top-4 rounded-full bg-amber-gold px-3 py-1 text-xs font-bold text-earth-950 shadow-sm">Best Seller</span>
+            </div>
+            <div class="flex flex-1 flex-col p-6">
+              <h3 class="font-display text-xl font-bold text-earth-800">Underground Aged Sticky Rice Wine</h3>
+              <p class="mt-1 text-lg font-bold text-amber-deep">150,000 ₫</p>
+              
+              <div class="mt-4 flex flex-wrap gap-2 text-xs font-medium text-earth-800">
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">29% Vol</span>
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">500ml</span>
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">Aged 6 months</span>
+              </div>
+
+              <p class="mt-4 flex-1 text-sm leading-relaxed text-earth-900/80">Made from selected sticky rice, aged underground to create a smooth, sweet aftertaste while removing toxins. Perfect for family gatherings.</p>
+              
+              <div class="mt-6 flex items-center gap-3">
+                <a href="https://zalo.me/0969868358" target="_blank" rel="noopener noreferrer" class="flex-1 rounded-full bg-amber-gold px-4 py-2.5 text-center text-sm font-semibold text-earth-950 transition-colors hover:bg-earth-900 hover:text-sand-50">Order on Zalo</a>
+                <a href="tel:0969868358" class="flex-none rounded-full border border-earth-800/20 px-4 py-2.5 text-sm font-semibold text-earth-800 transition-colors hover:bg-earth-800 hover:text-sand-50">Call Us</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 2 -->
+          <article class="group flex flex-col overflow-hidden rounded-2xl bg-sand-50 shadow-md ring-1 ring-earth-800/10 transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+            <div class="relative overflow-hidden">
+              <img src="1000029234.jpg"
+                   alt="Ginseng infused wine" class="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+            </div>
+            <div class="flex flex-1 flex-col p-6">
+              <h3 class="font-display text-xl font-bold text-earth-800">Earth Ginseng Infused Wine</h3>
+              <p class="mt-1 text-lg font-bold text-amber-deep">220,000 ₫</p>
+              
+              <div class="mt-4 flex flex-wrap gap-2 text-xs font-medium text-earth-800">
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">25% Vol</span>
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">500ml</span>
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">Infused 12 months</span>
+              </div>
+
+              <p class="mt-4 flex-1 text-sm leading-relaxed text-earth-900/80">Fresh earth ginseng infused with pure wine, resulting in a beautiful amber color and characteristic herbal flavor, excellent for health.</p>
+              
+              <div class="mt-6 flex items-center gap-3">
+                <a href="https://zalo.me/0969868358" target="_blank" rel="noopener noreferrer" class="flex-1 rounded-full bg-amber-gold px-4 py-2.5 text-center text-sm font-semibold text-earth-950 transition-colors hover:bg-earth-900 hover:text-sand-50">Order on Zalo</a>
+                <a href="tel:0969868358" class="flex-none rounded-full border border-earth-800/20 px-4 py-2.5 text-sm font-semibold text-earth-800 transition-colors hover:bg-earth-800 hover:text-sand-50">Call Us</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 3 -->
+          <article class="group flex flex-col overflow-hidden rounded-2xl bg-sand-50 shadow-md ring-1 ring-earth-800/10 transition duration-300 hover:-translate-y-1 hover:shadow-xl sm:col-span-2 lg:col-span-1">
+            <div class="relative overflow-hidden">
+              <img src="1000029228.jpg"
+                   alt="Oak barrel aged wine" class="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+              <span class="absolute right-4 top-4 rounded-full bg-earth-900 px-3 py-1 text-xs font-bold text-sand-50 shadow-sm">Special</span>
+            </div>
+            <div class="flex flex-1 flex-col p-6">
+              <h3 class="font-display text-xl font-bold text-earth-800">Long-Aged Oak Barrel Wine</h3>
+              <p class="mt-1 text-lg font-bold text-amber-deep">From 1,550,000 ₫</p>
+              
+              <div class="mt-4 flex flex-wrap gap-2 text-xs font-medium text-earth-800">
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">Various sizes</span>
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">Premium oak</span>
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">Flavor preservation</span>
+              </div>
+
+              <p class="mt-4 flex-1 text-sm leading-relaxed text-earth-900/80">Aged in oak barrels for years. Warm, smooth flavor with elegant packaging. Available in volumes from 10L to 300L.</p>
+              
+              <div class="mt-6 flex items-center gap-3">
+                <a href="https://zalo.me/0969868358" target="_blank" rel="noopener noreferrer" class="flex-1 rounded-full bg-amber-gold px-4 py-2.5 text-center text-sm font-semibold text-earth-950 transition-colors hover:bg-earth-900 hover:text-sand-50">Order on Zalo</a>
+                <a href="tel:0969868358" class="flex-none rounded-full border border-earth-800/20 px-4 py-2.5 text-sm font-semibold text-earth-800 transition-colors hover:bg-earth-800 hover:text-sand-50">Call Us</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="bg-earth-900 py-20">
+      <div class="mx-auto max-w-6xl px-5">
+        <div class="mx-auto max-w-2xl text-center">
+          <h2 class="font-display text-3xl font-bold text-amber-gold md:text-4xl">Exhibition Space</h2>
+          <p class="mt-4 text-sand-100/80">Where cultural beauty and famous wine batches are preserved.</p>
+        </div>
+        <div class="mt-12 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
+          <img class="col-span-2 row-span-2 h-full min-h-[16rem] w-full rounded-2xl object-cover" loading="lazy" alt="OH Wine bottle and Vietnamese History book"
+               src="1000029230.jpg" />
+          <img class="h-40 w-full rounded-2xl object-cover md:h-48" loading="lazy" alt="Ceramic jars and oak barrels display"
+               src="1000029233.jpg" />
+          <img class="h-40 w-full rounded-2xl object-cover md:h-48" loading="lazy" alt="OH oak barrel price list"
+               src="1000029229.jpg" />
+          <img class="h-40 w-full rounded-2xl object-cover md:h-48" loading="lazy" alt="Enjoying OH Wine in a modern space"
+               src="1000029236.jpg" />
+          <img class="h-40 w-full rounded-2xl object-cover md:h-48" loading="lazy" alt="Ceramic wine jars in the garden"
+               src="1000029231.jpg" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-earth-950 text-sand-100">
+    <div class="mx-auto grid max-w-6xl gap-10 px-5 py-16 md:grid-cols-3">
+      <div>
+        <p class="font-display text-2xl font-bold text-amber-gold">OH Wine</p>
+        <p class="mt-4 max-w-xs text-sm leading-relaxed text-sand-100/80">The taste of hometown, cooked with mother's love. Connecting the past, preserving Vietnamese values.</p>
+      </div>
+      <div>
+        <h3 class="font-display text-lg font-semibold text-amber-gold">Contact Info</h3>
+        <ul class="mt-4 space-y-3 text-sm text-sand-100/90">
+          <li>Address: Muou Giap, Gia Tran, Gia Vien, Ninh Binh</li>
+          <li>Phone: <a class="hover:text-amber-gold" href="tel:0969868358">0969 868 358</a></li>
+          <li>Fanpage: <a class="hover:text-amber-gold text-blue-400 font-medium" href="https://www.facebook.com/profile.php?id=61594484997913" target="_blank" rel="noopener noreferrer">OH Wine Facebook</a></li>
+          <li>Hours: 8:00 AM – 8:00 PM daily</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-display text-lg font-semibold text-amber-gold">Map</h3>
+        <!-- Dashed frame container -->
+        <div class="mt-4 flex h-52 w-full overflow-hidden rounded-xl border border-dashed border-amber-gold/50 bg-earth-900 p-2">
+          <!-- Google Maps Iframe -->
+          <iframe 
+            src="https://maps.google.com/maps?q=Mưu%20Giáp,%20Gia%20Trấn,%20Gia%20Viễn,%20Ninh%20Bình&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            class="h-full w-full rounded-lg border-0" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-amber-gold/20 py-5 text-center text-xs text-sand-100/60">
+      © 2026 OH Wine. Drink responsibly, do not drink and drive.
+    </div>
+  </footer>
+
+  <!-- Floating Contact Buttons (Zalo + Facebook) -->
+  <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+    <!-- Facebook Fanpage Button -->
+    <a href="https://www.facebook.com/profile.php?id=61594484997913" target="_blank" rel="noopener noreferrer"
+       class="flex items-center gap-2 rounded-full bg-[#0866FF] px-4 py-3 font-medium text-white shadow-xl transition-all duration-300 hover:scale-105 hover:bg-blue-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
+       aria-label="Chat via Fanpage">
+      <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+      </svg>
+      <span class="text-sm font-semibold">Facebook</span>
+    </a>
+
+    <!-- Zalo Button -->
+    <a href="https://zalo.me/0969868358" target="_blank" rel="noopener noreferrer"
+       class="flex items-center gap-2 rounded-full bg-blue-600 px-4 py-3 font-medium text-white shadow-xl transition-all duration-300 hover:scale-105 hover:bg-blue-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
+       aria-label="Chat via Zalo">
+      <svg class="h-6 w-6 fill-current" viewBox="0 0 48 48">
+        <path d="M24 4C12.95 4 4 12.95 4 24c0 4.12 1.25 7.95 3.4 11.14L5.1 42.14a1 1 0 001.26 1.26l6.96-2.28C16.51 43.15 20.14 44 24 44c11.05 0 20-8.95 20-20S35.05 4 24 4zm-7.5 13.5h15a1.5 1.5 0 011.5 1.5v1a1.5 1.5 0 01-1.5 1.5h-9.88l11.09 10.08a1.5 1.5 0 01-1.01 2.62h-15a1.5 1.5 0 01-1.5-1.5v-1a1.5 1.5 0 011.5-1.5h9.88L15.49 19.62a1.5 1.5 0 011.01-2.62z"/>
+      </svg>
+      <span class="text-sm font-semibold">Zalo</span>
+    </a>
+  </div>
+
+  <script>
+    // 1. Mobile menu toggle
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+    const iconOpen = document.getElementById('icon-open');
+    const iconClose = document.getElementById('icon-close');
+    
+    function toggleMenu(open) {
+      menu.classList.toggle('hidden', !open);
+      iconOpen.classList.toggle('hidden', open);
+      iconClose.classList.toggle('hidden', !open);
+      btn.setAttribute('aria-expanded', open);
+      btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    }
+    
+    btn.addEventListener('click', () => toggleMenu(menu.classList.contains('hidden')));
+    menu.querySelectorAll('.nav-link').forEach(a => a.addEventListener('click', () => toggleMenu(false)));
+
+    // 2. Smart Sticky Header
+    const header = document.getElementById('main-header');
+    let lastScrollY = window.scrollY;
+
+    window.addEventListener('scroll', () => {
+      const currentScrollY = window.scrollY;
+      
+      if (currentScrollY > 50) {
+        header.classList.add('shadow-lg', 'border-amber-gold/30');
+        header.classList.remove('border-amber-gold/0');
+      } else {
+        header.classList.remove('shadow-lg', 'border-amber-gold/30');
+        header.classList.add('border-amber-gold/0');
+      }
+
+      if (currentScrollY > lastScrollY && currentScrollY > 100 && menu.classList.contains('hidden')) {
+        header.classList.add('-translate-y-full');
+      } else {
+        header.classList.remove('-translate-y-full');
+      }
+      
+      lastScrollY = currentScrollY;
+    });
+
+    // 3. ScrollSpy
+    const sections = document.querySelectorAll('section, footer');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= (sectionTop - 100)) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('text-amber-gold', 'font-bold');
+        if (link.getAttribute('href').includes(current)) {
+          link.classList.add('text-amber-gold', 'font-bold');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

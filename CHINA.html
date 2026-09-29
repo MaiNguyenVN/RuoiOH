@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE_HERE" />
+  
+  <title>OH酒 – 浓厚故乡味，满满慈母情</title>
+  <meta name="description" content="OH酒——越南传统米酒，浓郁家乡味，满满慈母情，传承越南传统文化价值。" />
+
+  <!-- ========================================== -->
+  <!-- OPEN GRAPH CHO FACEBOOK, ZALO, iMESSAGE... -->
+  <!-- ========================================== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="OH酒 (Rượu OH)" />
+  <meta property="og:url" content="https://mainguyenvn.github.io/RuoiOH/cn.html" />
+  <meta property="og:title" content="OH酒 – 浓厚故乡味，满满慈母情" />
+  <meta property="og:description" content="OH酒——越南传统米酒，浓郁家乡味，满满慈母情，传承越南传统文化价值。" />
+  <meta property="og:image" content="https://mainguyenvn.github.io/RuoiOH/1000029231.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://mainguyenvn.github.io/RuoiOH/cn.html" />
+  <meta name="twitter:title" content="OH酒 – 浓厚故乡味，满满慈母情" />
+  <meta name="twitter:description" content="OH酒——越南传统米酒，浓郁家乡味，满满慈母情，传承越南传统文化价值。" />
+  <meta name="twitter:image" content="https://mainguyenvn.github.io/RuoiOH/1000029231.jpg" />
+  <!-- ========================================== -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            earth: { 950: '#2a1a10', 900: '#3b2416', 800: '#5a3722', 700: '#7a4b2d' },
+            amber: { gold: '#d9a441', deep: '#b9822a' },
+            sand: { 50: '#faf4e8', 100: '#f3e8d2', 200: '#e8d6b5' }
+          },
+          fontFamily: {
+            display: ['"Playfair Display"', 'Georgia', 'serif'],
+            body: ['"Be Vietnam Pro"', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Be Vietnam Pro', system-ui, sans-serif; }
+    html { scroll-padding-top: 5rem; }
+    img { background: #e8d6b5; }
+    @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+  </style>
+</head>
+<body class="bg-sand-50 text-earth-900 antialiased">
+
+  <!-- Smart Sticky Header -->
+  <header id="main-header" class="fixed top-0 left-0 right-0 z-50 bg-earth-950/95 backdrop-blur border-b border-amber-gold/0 transition-all duration-300 transform translate-y-0">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
+      <a href="#trang-chu" class="font-display text-2xl font-bold text-amber-gold">OH 酒</a>
+
+      <!-- Menu Desktop & Language Switcher -->
+      <div class="hidden md:flex items-center gap-8">
+        <nav aria-label="主菜单 (Menu chính)">
+          <ul id="desktop-menu" class="flex gap-8 text-sm font-medium text-sand-100">
+            <li><a class="nav-link hover:text-amber-gold transition-colors" href="#trang-chu">首页</a></li>
+            <li><a class="nav-link hover:text-amber-gold transition-colors" href="#cau-chuyen">品牌故事</a></li>
+            <li><a class="nav-link hover:text-amber-gold transition-colors" href="#san-pham">产品展示</a></li>
+            <li><a class="nav-link hover:text-amber-gold transition-colors" href="#lien-he">联系我们</a></li>
+          </ul>
+        </nav>
+
+        <!-- Dropdown Chọn Ngôn Ngữ (Desktop) - Đã đổi thành CN -->
+        <div class="relative group">
+          <button class="flex items-center gap-1 text-sm font-medium text-sand-100 hover:text-amber-gold transition-colors focus:outline-none py-2" aria-label="选择语言">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path></svg>
+            CN
+            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <!-- Menu con thả xuống -->
+          <div class="absolute right-0 top-full mt-0 w-32 origin-top-right rounded-md bg-earth-900 shadow-lg ring-1 ring-black ring-opacity-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+            <div class="py-1">
+              <a href="index.html" class="block px-4 py-2 text-sm text-sand-100 hover:bg-earth-800 hover:text-amber-gold">🇻🇳 Tiếng Việt</a>
+              <a href="en.html" class="block px-4 py-2 text-sm text-sand-100 hover:bg-earth-800 hover:text-amber-gold">🇬🇧 English</a>
+              <a href="fr.html" class="block px-4 py-2 text-sm text-sand-100 hover:bg-earth-800 hover:text-amber-gold">🇫🇷 Français</a>
+              <a href="cn.html" class="block px-4 py-2 text-sm text-amber-gold hover:bg-earth-800">🇨🇳 中文</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button id="menu-btn" class="md:hidden rounded p-2 text-sand-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-gold"
+              aria-label="打开菜单" aria-expanded="false" aria-controls="mobile-menu">
+        <svg id="icon-open" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg id="icon-close" class="hidden h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+
+    <!-- Menu Mobile -->
+    <nav id="mobile-menu" class="hidden md:hidden border-t border-amber-gold/20 bg-earth-950 shadow-xl" aria-label="移动端菜单">
+      <ul class="flex flex-col px-5 py-2 text-sand-100">
+        <li><a class="nav-link block py-3 hover:text-amber-gold" href="#trang-chu">首页</a></li>
+        <li><a class="nav-link block py-3 hover:text-amber-gold" href="#cau-chuyen">品牌故事</a></li>
+        <li><a class="nav-link block py-3 hover:text-amber-gold" href="#san-pham">产品展示</a></li>
+        <li><a class="nav-link block py-3 hover:text-amber-gold" href="#lien-he">联系我们</a></li>
+        
+        <!-- Chọn ngôn ngữ trên Mobile (CN đang active) -->
+        <li class="border-t border-earth-800 mt-2 pt-4 pb-4">
+          <p class="text-xs text-sand-100/50 mb-3 uppercase tracking-wider">语言 / Language</p>
+          <div class="flex flex-wrap gap-2">
+             <a href="index.html" class="text-sm font-medium border border-earth-800 rounded px-3 py-1.5 text-sand-100 hover:border-amber-gold hover:text-amber-gold transition-colors">🇻🇳 VN</a>
+             <a href="en.html" class="text-sm font-medium border border-earth-800 rounded px-3 py-1.5 text-sand-100 hover:border-amber-gold hover:text-amber-gold transition-colors">🇬🇧 EN</a>
+             <a href="fr.html" class="text-sm font-medium border border-earth-800 rounded px-3 py-1.5 text-sand-100 hover:border-amber-gold hover:text-amber-gold transition-colors">🇫🇷 FR</a>
+             <a href="cn.html" class="text-sm font-medium border border-amber-gold rounded px-3 py-1.5 bg-amber-gold/10 text-amber-gold">🇨🇳 CN</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="trang-chu" class="relative flex min-h-[80vh] items-center justify-center bg-earth-950 bg-cover bg-center"
+             style="background-image:url('1000029231.jpg')">
+      <div class="absolute inset-0 bg-earth-950/70"></div>
+      <div class="relative mx-auto max-w-3xl px-5 py-24 text-center">
+        <h1 class="font-display text-4xl font-extrabold leading-tight text-amber-gold sm:text-5xl md:text-6xl">
+          浓厚故乡味 – 满满慈母情
+        </h1>
+        <p class="mx-auto mt-6 max-w-xl text-lg text-sand-100/90">
+          它不仅是一种酒，更是故乡的灵魂、美好的记忆，是母亲与乡亲们深厚的情感...
+        </p>
+        <a href="#san-pham"
+           class="mt-10 inline-block rounded-full bg-amber-gold px-8 py-3 font-semibold text-earth-950 transition-colors hover:bg-sand-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-sand-50">
+          立即探索
+        </a>
+      </div>
+    </section>
+
+    <!-- Về chúng tôi -->
+    <section id="cau-chuyen" class="bg-sand-50 py-20">
+      <div class="mx-auto grid max-w-6xl items-center gap-12 px-5 md:grid-cols-2">
+        <div>
+          <h2 class="font-display text-3xl font-bold text-earth-800 md:text-4xl">我们的故事</h2>
+          <div class="mt-5 h-1 w-16 rounded bg-amber-gold"></div>
+          <div class="mt-6 space-y-4 text-base leading-relaxed text-earth-900/90 md:max-w-[60ch]">
+            <p>OH酒蕴含着历史的印记与宁平省（Ninh Binh）的传统精华，那里有壮丽的石灰岩山脉和古老的教堂。</p>
+            <p>我们通过精选优质原料、足期“下土”（埋藏于地下）发酵，并在高级陶瓷缸和橡木桶中陈酿，以保留岁月沉淀的风味，使酒的香气、色泽与口感达到完美和谐。</p>
+            <p>历史不仅是记载先辈丰功伟绩的书页，更是流淌的血液与坚韧的意志。让我们以世代相传的乡愁，珍视过去，守护现在。</p>
+          </div>
+        </div>
+        <div class="overflow-hidden rounded-3xl shadow-lg ring-1 ring-earth-800/10">
+          <img src="1000029227.jpg"
+               alt="OH酒与宁平石头教堂" class="h-80 w-full object-cover object-top md:h-[32rem]" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Sản phẩm -->
+    <section id="san-pham" class="bg-sand-100 py-20">
+      <div class="mx-auto max-w-6xl px-5">
+        <div class="mx-auto max-w-2xl text-center">
+          <h2 class="font-display text-3xl font-bold text-earth-800 md:text-4xl">畅销产品</h2>
+          <p class="mt-4 text-earth-900/80">深受客户喜爱的越南传统名酒。</p>
+        </div>
+
+        <div class="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          
+          <!-- Sản phẩm 1 -->
+          <article class="group flex flex-col overflow-hidden rounded-2xl bg-sand-50 shadow-md ring-1 ring-earth-800/10 transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+            <div class="relative overflow-hidden">
+              <img src="1000029232.jpg"
+                   alt="传统下土糯米酒" class="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+              <span class="absolute right-4 top-4 rounded-full bg-amber-gold px-3 py-1 text-xs font-bold text-earth-950 shadow-sm">热销</span>
+            </div>
+            <div class="flex flex-1 flex-col p-6">
+              <h3 class="font-display text-xl font-bold text-earth-800">传统下土糯米酒</h3>
+              <p class="mt-1 text-lg font-bold text-amber-deep">150,000 越南盾</p>
+              
+              <div class="mt-4 flex flex-wrap gap-2 text-xs font-medium text-earth-800">
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">酒精度 29% Vol</span>
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">500毫升</span>
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">陈酿 6 个月</span>
+              </div>
+
+              <p class="mt-4 flex-1 text-sm leading-relaxed text-earth-900/80">选用优质糯米酿造，经过足期埋藏发酵，酒体醇厚顺滑，回味甘甜，并有效去除杂醇。非常适合家庭聚餐。</p>
+              
+              <div class="mt-6 flex items-center gap-3">
+                <a href="https://zalo.me/0969868358" target="_blank" rel="noopener noreferrer" class="flex-1 rounded-full bg-amber-gold px-4 py-2.5 text-center text-sm font-semibold text-earth-950 transition-colors hover:bg-earth-900 hover:text-sand-50">Zalo 订购</a>
+                <a href="tel:0969868358" class="flex-none rounded-full border border-earth-800/20 px-4 py-2.5 text-sm font-semibold text-earth-800 transition-colors hover:bg-earth-800 hover:text-sand-50">电话咨询</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sản phẩm 2 -->
+          <article class="group flex flex-col overflow-hidden rounded-2xl bg-sand-50 shadow-md ring-1 ring-earth-800/10 transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+            <div class="relative overflow-hidden">
+              <img src="1000029234.jpg"
+                   alt="土人参泡酒" class="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+            </div>
+            <div class="flex flex-1 flex-col p-6">
+              <h3 class="font-display text-xl font-bold text-earth-800">土人参泡酒</h3>
+              <p class="mt-1 text-lg font-bold text-amber-deep">220,000 越南盾</p>
+              
+              <div class="mt-4 flex flex-wrap gap-2 text-xs font-medium text-earth-800">
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">酒精度 25% Vol</span>
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">500毫升</span>
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">浸泡 12 个月</span>
+              </div>
+
+              <p class="mt-4 flex-1 text-sm leading-relaxed text-earth-900/80">新鲜土人参搭配纯正原浆酒浸泡，呈现迷人的琥珀色，散发独特的草本香气，具有滋补养生的功效。</p>
+              
+              <div class="mt-6 flex items-center gap-3">
+                <a href="https://zalo.me/0969868358" target="_blank" rel="noopener noreferrer" class="flex-1 rounded-full bg-amber-gold px-4 py-2.5 text-center text-sm font-semibold text-earth-950 transition-colors hover:bg-earth-900 hover:text-sand-50">Zalo 订购</a>
+                <a href="tel:0969868358" class="flex-none rounded-full border border-earth-800/20 px-4 py-2.5 text-sm font-semibold text-earth-800 transition-colors hover:bg-earth-800 hover:text-sand-50">电话咨询</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sản phẩm 3 -->
+          <article class="group flex flex-col overflow-hidden rounded-2xl bg-sand-50 shadow-md ring-1 ring-earth-800/10 transition duration-300 hover:-translate-y-1 hover:shadow-xl sm:col-span-2 lg:col-span-1">
+            <div class="relative overflow-hidden">
+              <img src="1000029228.jpg"
+                   alt="橡木桶陈酿老酒" class="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+              <span class="absolute right-4 top-4 rounded-full bg-earth-900 px-3 py-1 text-xs font-bold text-sand-50 shadow-sm">特供</span>
+            </div>
+            <div class="flex flex-1 flex-col p-6">
+              <h3 class="font-display text-xl font-bold text-earth-800">橡木桶陈酿老酒</h3>
+              <p class="mt-1 text-lg font-bold text-amber-deep">1,550,000 越南盾起</p>
+              
+              <div class="mt-4 flex flex-wrap gap-2 text-xs font-medium text-earth-800">
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">多种容量</span>
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">高级橡木桶</span>
+                <span class="rounded-md bg-sand-200/60 px-2.5 py-1.5">恒久留香</span>
+              </div>
+
+              <p class="mt-4 flex-1 text-sm leading-relaxed text-earth-900/80">原浆酒在橡木桶中历经多年陈酿。口感温润醇厚，包装高档奢华，提供从10升到300升等多种容量选择。</p>
+              
+              <div class="mt-6 flex items-center gap-3">
+                <a href="https://zalo.me/0969868358" target="_blank" rel="noopener noreferrer" class="flex-1 rounded-full bg-amber-gold px-4 py-2.5 text-center text-sm font-semibold text-earth-950 transition-colors hover:bg-earth-900 hover:text-sand-50">Zalo 订购</a>
+                <a href="tel:0969868358" class="flex-none rounded-full border border-earth-800/20 px-4 py-2.5 text-sm font-semibold text-earth-800 transition-colors hover:bg-earth-800 hover:text-sand-50">电话咨询</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="khong-gian" class="bg-earth-900 py-20">
+      <div class="mx-auto max-w-6xl px-5">
+        <div class="mx-auto max-w-2xl text-center">
+          <h2 class="font-display text-3xl font-bold text-amber-gold md:text-4xl">展示空间</h2>
+          <p class="mt-4 text-sand-100/80">传承文化之美与展示名酒的空间。</p>
+        </div>
+        <div class="mt-12 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
+          <img class="col-span-2 row-span-2 h-full min-h-[16rem] w-full rounded-2xl object-cover" loading="lazy" alt="OH酒与越南历史"
+               src="1000029230.jpg" />
+          <img class="h-40 w-full rounded-2xl object-cover md:h-48" loading="lazy" alt="陶瓷缸与橡木桶"
+               src="1000029233.jpg" />
+          <img class="h-40 w-full rounded-2xl object-cover md:h-48" loading="lazy" alt="OH酒橡木桶价目表"
+               src="1000029229.jpg" />
+          <img class="h-40 w-full rounded-2xl object-cover md:h-48" loading="lazy" alt="在现代空间中品尝OH酒"
+               src="1000029236.jpg" />
+          <img class="h-40 w-full rounded-2xl object-cover md:h-48" loading="lazy" alt="花园中的陶瓷酿酒缸"
+               src="1000029231.jpg" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="lien-he" class="bg-earth-950 text-sand-100">
+    <div class="mx-auto grid max-w-6xl gap-10 px-5 py-16 md:grid-cols-3">
+      <div>
+        <p class="font-display text-2xl font-bold text-amber-gold">OH 酒</p>
+        <p class="mt-4 max-w-xs text-sm leading-relaxed text-sand-100/80">浓厚故乡味，满满慈母情。连接过去，传承越南价值。</p>
+      </div>
+      <div>
+        <h3 class="font-display text-lg font-semibold text-amber-gold">联系我们</h3>
+        <ul class="mt-4 space-y-3 text-sm text-sand-100/90">
+          <li>地址：宁平省嘉远县嘉镇 Mưỡu Giáp (Mưỡu Giáp, Gia Trấn, Gia Viễn, Ninh Bình)</li>
+          <li>电话：<a class="hover:text-amber-gold" href="tel:0969868358">0969 868 358</a></li>
+          <li>Facebook 主页：<a class="hover:text-amber-gold text-blue-400 font-medium" href="https://www.facebook.com/profile.php?id=61594484997913" target="_blank" rel="noopener noreferrer">OH酒 Facebook</a></li>
+          <li>营业时间：每天 8:00 – 20:00</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-display text-lg font-semibold text-amber-gold">地图</h3>
+        <!-- Dashed frame container -->
+        <div class="mt-4 flex h-52 w-full overflow-hidden rounded-xl border border-dashed border-amber-gold/50 bg-earth-900 p-2">
+          <!-- Google Maps Iframe -->
+          <iframe 
+            src="https://maps.google.com/maps?q=Mưu%20Giáp,%20Gia%20Trấn,%20Gia%20Viễn,%20Ninh%20Bình&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            class="h-full w-full rounded-lg border-0" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-amber-gold/20 py-5 text-center text-xs text-sand-100/60">
+      © 2026 OH酒 版权所有。理性饮酒，酒后请勿驾车。
+    </div>
+  </footer>
+
+  <!-- Floating Contact Buttons (Zalo + Facebook) -->
+  <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+    <!-- Nút Facebook Fanpage -->
+    <a href="https://www.facebook.com/profile.php?id=61594484997913" target="_blank" rel="noopener noreferrer"
+       class="flex items-center gap-2 rounded-full bg-[#0866FF] px-4 py-3 font-medium text-white shadow-xl transition-all duration-300 hover:scale-105 hover:bg-blue-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
+       aria-label="Facebook 聊天">
+      <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+      </svg>
+      <span class="text-sm font-semibold">Facebook</span>
+    </a>
+
+    <!-- Nút Zalo -->
+    <a href="https://zalo.me/0969868358" target="_blank" rel="noopener noreferrer"
+       class="flex items-center gap-2 rounded-full bg-blue-600 px-4 py-3 font-medium text-white shadow-xl transition-all duration-300 hover:scale-105 hover:bg-blue-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
+       aria-label="Zalo 聊天">
+      <svg class="h-6 w-6 fill-current" viewBox="0 0 48 48">
+        <path d="M24 4C12.95 4 4 12.95 4 24c0 4.12 1.25 7.95 3.4 11.14L5.1 42.14a1 1 0 001.26 1.26l6.96-2.28C16.51 43.15 20.14 44 24 44c11.05 0 20-8.95 20-20S35.05 4 24 4zm-7.5 13.5h15a1.5 1.5 0 011.5 1.5v1a1.5 1.5 0 01-1.5 1.5h-9.88l11.09 10.08a1.5 1.5 0 01-1.01 2.62h-15a1.5 1.5 0 01-1.5-1.5v-1a1.5 1.5 0 011.5-1.5h9.88L15.49 19.62a1.5 1.5 0 011.01-2.62z"/>
+      </svg>
+      <span class="text-sm font-semibold">Zalo</span>
+    </a>
+  </div>
+
+  <script>
+    // 1. Xử lý mở/đóng menu Mobile
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+    const iconOpen = document.getElementById('icon-open');
+    const iconClose = document.getElementById('icon-close');
+    
+    function toggleMenu(open) {
+      menu.classList.toggle('hidden', !open);
+      iconOpen.classList.toggle('hidden', open);
+      iconClose.classList.toggle('hidden', !open);
+      btn.setAttribute('aria-expanded', open);
+      btn.setAttribute('aria-label', open ? '关闭菜单' : '打开菜单');
+    }
+    
+    btn.addEventListener('click', () => toggleMenu(menu.classList.contains('hidden')));
+    // Tránh việc nhấp vào chọn ngôn ngữ làm đóng menu
+    menu.querySelectorAll('.nav-link').forEach(a => a.addEventListener('click', () => toggleMenu(false)));
+
+    // 2. Xử lý Smart Sticky Header (Ẩn khi cuộn xuống, Hiện khi cuộn lên)
+    const header = document.getElementById('main-header');
+    let lastScrollY = window.scrollY;
+
+    window.addEventListener('scroll', () => {
+      const currentScrollY = window.scrollY;
+      
+      // Đổ bóng và hiện viền khi không ở vị trí trên cùng
+      if (currentScrollY > 50) {
+        header.classList.add('shadow-lg', 'border-amber-gold/30');
+        header.classList.remove('border-amber-gold/0');
+      } else {
+        header.classList.remove('shadow-lg', 'border-amber-gold/30');
+        header.classList.add('border-amber-gold/0');
+      }
+
+      // Ẩn/hiện thông minh trên Mobile & Desktop
+      if (currentScrollY > lastScrollY && currentScrollY > 100 && menu.classList.contains('hidden')) {
+        // Cuộn xuống -> Ẩn header
+        header.classList.add('-translate-y-full');
+      } else {
+        // Cuộn lên -> Hiện header
+        header.classList.remove('-translate-y-full');
+      }
+      
+      lastScrollY = currentScrollY;
+    });
+
+    // 3. ScrollSpy: Tự động highlight Menu khi lướt tới Section tương ứng
+    const sections = document.querySelectorAll('section, footer');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= (sectionTop - 100)) { // Offset 100px để tính toán mượt hơn
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('text-amber-gold', 'font-bold');
+        if (link.getAttribute('href').includes(current)) {
+          link.classList.add('text-amber-gold', 'font-bold');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
